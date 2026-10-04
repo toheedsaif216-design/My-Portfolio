@@ -457,3 +457,82 @@ body.light-mode #skills ul li {
     border-color: white;
     color: white;
 }
+
+/* TO MAKE WEBSITE RESPONSIVE */
+@media (max-width: 768px) {
+/* NAV-BAR'S RESPONSIVENESS */
+header {
+    flex-wrap: wrap;
+    padding: 0.625rem 0;
+  }
+  header img {
+    height: 3rem;
+    width: 3rem;
+  }
+  #lefty h1 {
+    font-size: 1.3rem;
+  }
+  header a {
+    font-size: 0.9rem;
+    margin: 0 0.5rem;
+  }
+/* ................................................. */
+
+ /* ABOUT ME SECTION'S ESPONSIVENESS */
+  #about-me {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+  #about-me #text-container,
+  #about-me #img-container {
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  #about-me img {
+    margin-left: 3rem;
+  }
+  .big-container {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+  /* SKILL SECTION'S RESPONSIVENESS */
+  #skills {
+    height: auto;
+  }
+  #skills #skills-content {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .skill.box {
+    margin-left: 0;
+  }
+  #skills img {
+    margin-top: 2rem;
+  }
+  /* PROJECT SECTION'S RESPONSIVENESS */
+  #Projects {
+    height: auto;
+    flex-direction: column;
+  }
+  .big-one {
+    flex-direction: column;
+    
+  }
+  .big-one img {
+    margin-right: 0;
+    margin-bottom: 1.875rem;
+    margin-top:1.875rem;
+  }
+  .project-container {
+    margin-right: 0;
+    max-width: 100%;
+  }
+/* CONTACT SECTION'S RESPONSIVENESS */
+  #contact {
+    height: auto;
+  }
+}
