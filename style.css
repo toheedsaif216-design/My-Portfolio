@@ -15,8 +15,6 @@ header{
     justify-content: space-between;
     align-items: center;
     border: #0D1729 0.094rem solid;
-    /* position: sticky;
-    top: 0; */
     width: 100%;
     
 }
@@ -55,6 +53,7 @@ header img{
     color: orange;
     transition: 0.3s;
 }
+.icon { width: 1em; height: 1em; fill: currentColor; vertical-align: -0.125em; }
 
 /*HERO SECTION IS HERE*/
 
@@ -70,7 +69,7 @@ header img{
     background-image: linear-gradient(
         rgba(0,0,0,0.8),
         rgba(0,0,0,0.8)),
-    url("bg-img.jpg");
+    url("bg-img.webp");
     background-size: cover;
     background-position: center;
     height: 98vh;   
